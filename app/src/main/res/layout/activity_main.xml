@@ -4,17 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-<ImageView
+
+    <ImageView
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:src="@drawable/androidparty"/>
 
-<TextView
+    <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:textSize="36sp"
+    android:fontFamily="sans-serif-light"
     android:text="Happy Birthday Mom!" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Love Sweet Potatoe Pie" />
+        android:text="Love, Sweet Potatoe Pie!"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
     </RelativeLayout>
